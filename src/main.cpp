@@ -1,10 +1,10 @@
-#include <iostream>
+#include "../include/functions.h"
 
 using namespace std;
 
 int main()
 {
-	cout << "Snake";
+	draw();
 	return 0;
 }
 
