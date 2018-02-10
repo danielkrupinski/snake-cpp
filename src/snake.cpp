@@ -1,4 +1,4 @@
-#include "../include/functions.h"
+#include "../include/snake.h"
 
 using namespace std;
 
