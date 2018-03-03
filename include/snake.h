@@ -5,6 +5,7 @@
 
 namespace Snake {
     vector<char> board(200);
+    void init();
     void draw();
 }
 
