@@ -2,10 +2,10 @@
 
 void Snake::init()
 {
-    for (int i=0; i!=920; ++i)
-        if (i<40 || i>880)
+    for (int i=0; i!=1880; ++i)
+        if (i<80)
             board.push_back('-');
-        else if (!(i%39))
+        else if (i%78==0)
             board.push_back('|');
         else board.push_back(' ');
 }
