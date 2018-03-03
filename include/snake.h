@@ -4,9 +4,10 @@
 #include <iostream>
 #include <vector>
 
-namespace Snake {
+class Snake {
+public:
     void init();
     void draw();
-}
+};
 
 #endif
