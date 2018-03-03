@@ -2,7 +2,7 @@
 #define SNAKE_H
 
 namespace Snake {
-    
+    void draw();
 }
 
 #endif
