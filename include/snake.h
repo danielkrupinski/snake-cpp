@@ -9,7 +9,7 @@ public:
     void init();
     void draw();
 private:
-    vector<char> board(200);
+    std::vector<char> board(200);
 };
 
 #endif
