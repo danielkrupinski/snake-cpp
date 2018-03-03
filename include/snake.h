@@ -8,6 +8,8 @@ class Snake {
 public:
     void init();
     void draw();
+private:
+    vector<char> board(200);
 };
 
 #endif
