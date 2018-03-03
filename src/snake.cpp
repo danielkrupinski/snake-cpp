@@ -8,5 +8,12 @@ void init()
 
 void draw()
 {
-
+    for (int i=0; i!=board.size(); ++i)
+        if (!(i%20))
+            std::cout << board[i];
+        else
+        {
+            std::cout << endl;
+            std::cout << board[i];
+        }
 }
